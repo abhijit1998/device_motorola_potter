@@ -252,9 +252,6 @@ TARGET_LD_SHIM_LIBS := \
     /system/vendor/lib64/libmdmcutback.so|libqsap_shim.so \
     /system/vendor/lib/libjustshoot.so|libjustshoot_shim.so
 
-# Use mke2fs to create ext4 images
-TARGET_USES_MKE2FS := true
-
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-12-01
 
