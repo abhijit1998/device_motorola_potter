@@ -569,4 +569,7 @@
     <!-- Whether to allow sending active app broadcast -->
     <bool name="config_allowActivePackageBroadcast">true</bool>
 
+    <!-- Whether to show multiuser icon on keyguard -->
+    <bool name="config_showMultiuserIconKeyguard">false</bool>
+
 </resources>
