@@ -535,4 +535,7 @@
          Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">false</bool>
 
+    <integer name="config_doubleTapKeyCode">1</integer>
+    <integer name="config_doubleTapDefault">1</integer>
+
 </resources>
