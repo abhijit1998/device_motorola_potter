@@ -31,6 +31,9 @@ TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_BOOT_ANIMAION_RES := 1080
 
+#official
+export export HAVOC_BUILD_TYPE=Official
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := potter
 PRODUCT_NAME := havoc_potter
