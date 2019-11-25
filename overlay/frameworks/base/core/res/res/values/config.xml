@@ -500,7 +500,7 @@
 	<dimen name="config_buttonCornerRadius">4.0dip</dimen>
 
     <!-- Flashlight on power button -->
-    <integer name="config_flashlightProximityTimeout">3000</integer>
+    <integer name="config_flashlightProximityTimeout">-1</integer>
 
     <!-- Whether the device has fingeprint sensor or not -->
     <bool name="config_hasFingerprintSensor">true</bool>
