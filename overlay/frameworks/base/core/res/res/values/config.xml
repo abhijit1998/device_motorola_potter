@@ -541,4 +541,6 @@
     <!-- Enable dual LTE capability support-->
     <bool name="config_dual_LTE_capability">true</bool>
 
+    <!-- Enable screen attention support-->
+    <bool name="config_adaptive_sleep_available">false</bool>
 </resources>
