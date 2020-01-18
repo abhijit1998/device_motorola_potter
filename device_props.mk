@@ -333,6 +333,9 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.vsync_event_phase_offset_ns=2000000 \
     ro.surface_flinger.vsync_sf_event_phase_offset_ns=6000000
 
+# Disable touch heatmap
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.input.video_enabled=false
 
 # Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
