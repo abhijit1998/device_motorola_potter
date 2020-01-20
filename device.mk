@@ -191,6 +191,10 @@ PRODUCT_PACKAGES += \
     qcom.fmradio \
     init.qti.fm.sh
 
+# Gapps Config
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/gapps-config.txt:$(TARGET_COPY_OUT_VENDOR)/etc/gapps-config.txt 
+
 # Gatekeeper HAL
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
