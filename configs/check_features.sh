@@ -13,5 +13,3 @@ else
     rm /system/system/vendor/etc/permissions/android.hardware.sensor.compass.xml
 fi
 
-# copy gapps config to internal storage
-    cp /system/system/vendor/etc/gapps-config.txt /sdcard
