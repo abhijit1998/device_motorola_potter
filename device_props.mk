@@ -234,6 +234,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.qcril_uim_vcc_feature=1 \
     persist.mot.gps.conf.from.sim=true \
     persist.net.doxlat=true \
+    persist.radio.aosp_usr_pref_sel=true \
     persist.radio.ROTATION_ENABLE=1 \
     persist.radio.adb_log_on=0 \
     persist.radio.calls.on.ims=true \
