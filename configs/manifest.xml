@@ -110,8 +110,6 @@
             <name>ICryptoFactory</name>
             <instance>default</instance>
         </interface>
-    </hal>
-    <hal format="hidl">
         <interface>
             <name>IDrmFactory</name>
             <instance>default</instance>
