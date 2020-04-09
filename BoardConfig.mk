@@ -253,9 +253,6 @@ TARGET_LD_SHIM_LIBS := \
 # Security patch level
 VENDOR_SECURITY_PATCH := 2018-12-01
 
-# SurfaceFlinger
-TARGET_USE_QCOM_SURFACEFLINGER := true
-
 # Wifi
 BOARD_HAS_QCOM_WLAN              := true
 PRODUCT_VENDOR_MOVE_ENABLED      := true
